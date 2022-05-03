@@ -1,0 +1,22 @@
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 3rem;
+    background-color: var(--azul-salesforce);
+}
+
+.cabecalho__img{
+    width: 50%;
+    border-radius: 50%;
+}
+
+.cabecalho__nav{
+    width: 40%;
+}
+
+.cabecalho__lista-item{
+    display:inline-block;
+    font-size: 1.2rem;
+    list-style: none;
+    margin-left: 1rem;
+}
