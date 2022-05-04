@@ -1,0 +1,30 @@
+.cards__container{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.card__blog{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    border: 3px solid #277ED6;
+    border-radius: 10px;
+    margin: 0 1rem;
+}
+
+.card__img{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.card__infos{
+    padding: 0.5rem 0.5rem;
+}
+
+.card__titulo{
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 1rem 0;
+}
